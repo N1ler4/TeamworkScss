@@ -5,6 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins&display=swap");
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -72,7 +73,8 @@ a {
 abbr[title] {
   border-bottom: none; /* 1 */
   text-decoration: underline; /* 2 */
-  text-decoration: underline dotted; /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -307,6 +309,18 @@ template {
   display: none;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(../assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
 .container {
   max-width: 1240px;
   margin: 0 auto;
@@ -316,30 +330,62 @@ template {
 
 header {
   width: 100%;
+  background: #00008c;
 }
 header .nav {
   display: flex;
-  height: 70px;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: space-between;
 }
-header .nav__logo {
-  font-style: 24px;
-  cursor: pointer;
-}
-header .nav__list {
+header .nav .nav__list {
   display: flex;
-  gap: 50px;
-  list-style-type: none;
+  align-items: center;
+  gap: 32px;
+  font-family: "Poppins";
 }
-header .nav__list--item {
-  text-transform: uppercase;
+header .nav .nav__list .nav__list--item a {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
 }
-header .nav__list--item-link {
-  text-decoration: none;
+header .nav .nav__list__part2 {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
-header .nav__list--item-link:hover {
-  color: red;
+header .nav .nav__list__part2 .nav__list--item__choose {
+  background: rgba(250, 250, 255, 0.3215686275);
+  padding: 10px;
+  border-radius: 38px;
+}
+header .nav .nav__list__part2 .nav__list--item__choose p {
+  color: #FFF;
+  font-family: "Poppins";
+}
+header .nav .nav__list__part2 .nav__list--item__menu {
+  border: 1px solid #FFF;
+  padding: 10px;
+  border-radius: 38px;
+}
+header .nav .nav__list__part2 .nav__list--item__menu p {
+  color: #FFF;
+  font-family: "Inter";
+}
+header .nav .nav__list__part2 .nav__list--item a {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Inter";
+}
+header .nav .nav__list--item__menu {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+header .nav .nav__list--item__choose {
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
 
 main {
@@ -348,4 +394,75 @@ main {
 
 footer {
   width: 100%;
+  background: rgba(0, 0, 140, 0.8980392157);
+}
+footer a {
+  color: #FFF;
+}
+footer .footer_main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+footer .footer_main .footer_text {
+  display: flex;
+  gap: 48px;
+  margin-top: 20px;
+}
+footer .footer_main .footer_text div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .footer_main .footer_text div a {
+  font-family: "Poppins";
+  font-size: 18px;
+}
+footer .footer_main .footer_link {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .footer_main .footer_link p {
+  color: #FFF;
+  font-size: 13px;
+  font-family: "Poppins";
+}
+footer .footer_main .footer_link div {
+  display: flex;
+  gap: 15px;
+  width: 250px;
+}
+footer .footer_main .footer_link div svg {
+  width: 24px;
+  height: 24px;
+}
+footer .footer_main .footer_button h1 {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: Poppins;
+}
+footer .footer_main .footer_button div {
+  display: flex;
+  gap: 10px;
+}
+footer .footer_main .footer_button button {
+  padding: 5px 25px;
+  display: flex;
+  align-items: center;
+  border-radius: 44px;
+  border: none;
+  cursor: pointer;
+  gap: 5px;
+  color: #14141F;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+}
+footer .footer_massenger {
+  display: grid;
+  justify-content: center;
+  margin-top: 50px;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
