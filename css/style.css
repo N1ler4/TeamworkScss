@@ -73,8 +73,7 @@ a {
 abbr[title] {
   border-bottom: none; /* 1 */
   text-decoration: underline; /* 2 */
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted; /* 2 */
+  text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -322,7 +321,7 @@ template {
   src: url(../assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
 }
 .container {
-  max-width: 1240px;
+  max-width: 1440px;
   margin: 0 auto;
   width: 100%;
   padding: 0 10px;
@@ -465,4 +464,145 @@ footer .footer_massenger {
   justify-content: center;
   margin-top: 50px;
   cursor: pointer;
+}
+
+#sectionpage1 {
+  background-color: #99D8FF;
+}
+#sectionpage1 .homesingel {
+  display: flex;
+  height: 70px;
+  align-items: center;
+  gap: 18px;
+}
+#sectionpage1 .homesingel li {
+  color: #0000B2;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Poppins;
+  display: flex;
+  gap: 12px;
+}
+
+.osonnews__card {
+  justify-content: i;
+  width: auto;
+  height: 447px;
+  margin: 123px auto;
+}
+.osonnews__card .card {
+  border: 1px solid rgba(203, 203, 235, 0.34);
+  border-radius: 10px;
+  display: flex;
+  padding: 60px 80px;
+}
+.osonnews__card .card__img {
+  width: 540px;
+  height: 362px;
+  margin-right: 93px;
+}
+.osonnews__card .card__text h1 {
+  color: #00008C;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+  width: 439px;
+  margin-bottom: 15px;
+}
+.osonnews__card .card__text p {
+  color: #86889F;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  width: 489px;
+  margin-bottom: 111px;
+}
+.osonnews__card .card div p {
+  color: rgba(0, 0, 140, 0.56);
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+}
+
+.btm {
+  display: inline-flex;
+  height: 40px;
+  padding: 6px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-shrink: 0;
+  border-radius: 45px;
+  background: #007ECC;
+  border: none;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+}
+
+.allnews {
+  display: flex;
+  gap: 33px;
+}
+.allnews__card {
+  width: 447px;
+  height: 620px;
+  border: 1px solid silver;
+  border-radius: 10px;
+}
+.allnews__card--img {
+  width: auto;
+  height: 300px;
+}
+.allnews__card--img-svg {
+  position: relative;
+}
+.allnews__card--img-svg-s {
+  position: absolute;
+  top: 240px;
+  left: 100px;
+}
+.allnews__card--text h1 {
+  color: #00008C;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+  margin: 56px 39px 0px 39px;
+  width: 348px;
+}
+.allnews__card--text p {
+  color: #86889F;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  width: 348px;
+  margin: 2px 39px 50px 39px;
+}
+.allnews__card--text-btn {
+  margin-left: 39px;
+}
+
+.allnewss {
+  display: flex;
+  gap: 33px;
+  margin-top: 66px;
+  margin-bottom: 229px;
+}
+
+.oson_logo-flex {
+  display: flex;
+  margin-bottom: 110px;
 }/*# sourceMappingURL=style.css.map */
