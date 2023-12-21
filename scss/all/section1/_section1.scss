@@ -1,0 +1,225 @@
+.tolovlar {
+  background: #00008c;
+
+  & .tolovlar_part1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: centre;
+
+    & .tolovlar__2img {
+      img {
+        width: 500px;
+        height: 500px;
+        margin-left: 100px;
+      }
+    }
+
+    & .tolovlar_part1-text {
+      margin-top: 50px;
+
+      h1 {
+        font-size: 52px;
+        color: #fff;
+        width: 509px;
+        margin-left: 0px;
+      }
+    }
+
+    & .tolovlar_button {
+      display: flex;
+      margin-left: 50px;
+      gap: 10px;
+
+      button {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        border-radius: 54px;
+        padding: 5px;
+        border: none;
+        color: #14141f;
+        font-size: 16px;
+        font-family: Poppins;
+        font-weight: 600;
+      }
+    }
+  }
+
+    background-image: url(../../../assets/images/Ellipse\ 1303\ \(2\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 600px 600px;
+    background-position: 90% 0%;
+    z-index: 1;
+
+  .tolovlar_cards {
+    display: flex;
+    z-index: 2;
+    justify-content: center;
+
+    & .tolovlar-card {
+      opacity: 0.7;
+      padding: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+
+      h2 {
+        color: #fff;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+
+      p {
+        color: #fff;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        width: 270px;
+      }
+    }
+  }
+}
+
+.hamyon {
+  & .hamyon_flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  & .hamyon_text {
+    h1 {
+      width: 569px;
+      color: #00008c;
+      font-family: Poppins;
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 120%; /* 60px */
+    }
+    p {
+      width: 485px;
+      color: #636376;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 167%;
+      opacity: 0.6;
+    }
+    button {
+      width: 200px;
+      height: 50px;
+      flex-shrink: 0;
+      border-radius: 100px;
+      background: #00008c;
+      color: #fff;
+      font-family: Gilroy-ExtraBold;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 139.5%; /* 25.11px */
+      border: none;
+      margin-top: 20px;
+    }
+  }
+}
+
+.reason {
+  background: #00008c;
+  width: 100%;
+  height: 550px;
+
+  background-image: url(../../../assets/images/Group\ 1.png);
+  background-size: 80% 350px;
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+
+  h1 {
+    width: 569px;
+    color: #fff;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 50px;
+    padding: 50px;
+    margin-left: 200px;
+  }
+}
+
+.pre-footer {
+    display: grid;
+    height: 420px;
+    justify-content: center;
+    margin-top: 50px;
+
+
+  & .pre-footer__1 {
+    background: #2323fb;
+    height: 220px;
+    width: 800px;
+
+    border-radius: 30px;
+
+    p {
+      padding: 20px;
+      color: #fff;
+      font-family: "Poppins";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+  }
+
+  & .pre-footer__2 {
+    background: #009eff;
+    height: 220px;
+    width: 600px;
+    padding: 20px;
+    border-radius: 30px;
+
+    p {
+      color: #fff;
+      font-family: Poppins;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      padding: 20px;
+    }
+  }
+
+  & .pre-footer__3 {
+    background: #0303CB;
+    height: 220px;
+    width: 700px;
+    border-radius: 30px;
+    position: relative;
+    right: 20px;
+    
+    
+
+    h2 {
+      color: #fff;
+      font-family: Poppins;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      padding: 20px;
+    }
+    p {
+      color: #fff;
+      font-family: Poppins;
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 22px;
+      padding: 20px;
+    }
+  }
+}
