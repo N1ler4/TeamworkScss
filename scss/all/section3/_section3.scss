@@ -1,0 +1,175 @@
+#sectionpage1 {
+    background-color: #99D8FF;
+
+    .homesingel {
+        display: flex;
+        height: 70px;
+        align-items: center;
+        gap: 18px;
+
+
+        & li {
+            color: #0000B2;
+            font-size: 16px;
+            font-weight: 500;
+            font-family: Poppins;
+            display: flex;
+            gap: 12px;
+        }
+    }
+}
+
+.osonnews__card {
+    justify-content: i;
+    width: auto;
+    height: 447px;
+    margin: 123px auto;
+
+    .card {
+        border: 1px solid rgba(203, 203, 235, 0.34);
+        border-radius: 10px;
+        display: flex;
+        padding: 60px 80px;
+
+        &__img {
+            width: 540px;
+            height: 362px;
+            margin-right: 93px;
+        }
+
+
+        &__text h1 {
+            color: #00008C;
+            font-family: Poppins;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 125%;
+            width: 439px;
+            margin-bottom: 15px;
+
+
+
+        }
+
+        &__text p {
+
+            color: #86889F;
+            font-family: Poppins;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 20px;
+            width: 489px;
+            margin-bottom: 111px;
+
+        }
+
+        div {
+
+            p {
+                color: rgba(0, 0, 140, 0.56);
+                font-family: Poppins;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 125%;
+
+            }
+        }
+
+    }
+
+
+}
+
+.btm {
+    display: inline-flex;
+    height: 40px;
+    padding: 6px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-shrink: 0;
+    border-radius: 45px;
+    background: #007ECC;
+    border: none;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+
+.allnews {
+
+    display: flex;
+    gap: 33px;
+
+    &__card {
+        width: 447px;
+        height: 620px;
+        border: 1px solid silver;
+        border-radius: 10px;
+
+
+        &--img {
+            width: auto;
+            height: 300px;
+
+        }
+
+        &--img-svg {
+            position: relative;
+
+            &-s {
+                position: absolute;
+                top: 240px;
+                left: 100px;
+            }
+        }
+
+        &--text h1 {
+            color: #00008C;
+            font-family: Poppins;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 125%;
+            margin: 56px 39px 0px 39px;
+            width: 348px;
+        }
+
+        &--text p {
+            color: #86889F;
+            font-family: Poppins;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 20px;
+            width: 348px;
+            margin: 2px 39px 50px 39px;
+
+        }
+
+
+        &--text-btn {
+            margin-left: 39px;
+        }
+    }
+
+}
+
+.allnewss {
+    display: flex;
+    gap: 33px;
+    margin-top: 66px;
+    margin-bottom: 229px;
+}
+
+.oson_logo-flex {
+    display: flex;
+    margin-bottom: 110px;
+}
