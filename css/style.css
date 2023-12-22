@@ -73,8 +73,7 @@ a {
 abbr[title] {
   border-bottom: none; /* 1 */
   text-decoration: underline; /* 2 */
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted; /* 2 */
+  text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -802,4 +801,101 @@ footer .footer_massenger {
 .oson_logo-flex {
   display: flex;
   margin-bottom: 110px;
+}
+
+.mi {
+  position: relative;
+}
+
+.vac {
+  color: #99D9FF;
+  font-family: Poppins;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+  transform: rotate(20deg);
+  position: absolute;
+  margin-top: -500px;
+  margin-left: -200px;
+}
+
+.vacansiya__card {
+  display: flex;
+  margin-top: 157px;
+  margin-bottom: 48px;
+  border-radius: 10px;
+  border: 1px solid #F5F8F8;
+  background: rgba(255, 255, 255, 0.34);
+  backdrop-filter: blur(153px);
+  padding: 40px;
+  margin-left: 324px;
+}
+.vacansiya__card--text {
+  margin-right: 324px;
+}
+.vacansiya__card--text .de {
+  color: #00C;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+}
+.vacansiya__card--text h1 {
+  color: #00001A;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+}
+.vacansiya__card--text ul {
+  display: flex;
+  gap: 60px;
+}
+.vacansiya__card--text ul .dm {
+  color: #73738C;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+}
+.vacansiya__card--text ul .mi {
+  color: #006;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+}
+.vacansiya__card--text .btu {
+  margin: 80px 10px 0px 0px;
+  padding: 12px 30px;
+  align-items: flex-start;
+  border-radius: 42px;
+  background: #00A0FF;
+  border: none;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+  gap: 20px;
+  cursor: pointer;
+}
+.vacansiya__card--text .btu:hover {
+  background-color: rgb(252, 245, 231);
+  color: #00A0FF;
+}
+.vacansiya__card--img {
+  width: 338px;
+  height: 351px;
+  flex-shrink: 0;
+}
+
+.PR {
+  margin-bottom: 285px;
 }/*# sourceMappingURL=style.css.map */
