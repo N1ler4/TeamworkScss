@@ -671,15 +671,8 @@ footer .footer_massenger {
   display: flex;
   padding: 44px 0px 89px 0px;
 }
-
 .hamyon__card--text h1 {
   color: #FFF;
-
-#sectionpage1 .homesingel li {
-  color: #0000B2;
-  font-size: 16px;
-  font-weight: 500;
-
   font-family: Poppins;
   font-size: 64px;
   font-style: normal;
@@ -696,7 +689,6 @@ footer .footer_massenger {
   line-height: 125%;
   width: 319px;
 }
-
 
 #status {
   margin: 178px 0px 446px 0px;
@@ -755,7 +747,6 @@ footer .footer_massenger {
 
 .status__card {
   display: flex;
-  gap: 30px;
 }
 
 .cards {
@@ -877,18 +868,6 @@ footer .footer_massenger {
   border: 1px solid rgba(203, 203, 235, 0.34);
   border-radius: 10px;
   display: flex;
-
-.osonnews__card {
-  justify-content: i;
-  width: auto;
-  height: 447px;
-  margin: 123px auto;
-}
-.osonnews__card .card {
-  border: 1px solid rgba(203, 203, 235, 0.34);
-  border-radius: 10px;
-  display: flex;
-
   padding: 60px 80px;
 }
 .osonnews__card .card__img {
@@ -1113,13 +1092,11 @@ footer .footer_massenger {
   margin-left: 60px;
   gap: 18px;
 }
-
 #sectionpage1 .homesingel a {
   color: #0000b2;
   font-family: Poppins;
   font-size: 16px;
 }
-
 #sectionpage1 .homesingel li {
   color: #0000B2;
   font-size: 16px;
