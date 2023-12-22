@@ -73,7 +73,8 @@ a {
 abbr[title] {
   border-bottom: none; /* 1 */
   text-decoration: underline; /* 2 */
-  text-decoration: underline dotted; /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -670,8 +671,15 @@ footer .footer_massenger {
   display: flex;
   padding: 44px 0px 89px 0px;
 }
+
 .hamyon__card--text h1 {
   color: #FFF;
+
+#sectionpage1 .homesingel li {
+  color: #0000B2;
+  font-size: 16px;
+  font-weight: 500;
+
   font-family: Poppins;
   font-size: 64px;
   font-style: normal;
@@ -688,6 +696,7 @@ footer .footer_massenger {
   line-height: 125%;
   width: 319px;
 }
+
 
 #status {
   margin: 178px 0px 446px 0px;
@@ -868,6 +877,18 @@ footer .footer_massenger {
   border: 1px solid rgba(203, 203, 235, 0.34);
   border-radius: 10px;
   display: flex;
+
+.osonnews__card {
+  justify-content: i;
+  width: auto;
+  height: 447px;
+  margin: 123px auto;
+}
+.osonnews__card .card {
+  border: 1px solid rgba(203, 203, 235, 0.34);
+  border-radius: 10px;
+  display: flex;
+
   padding: 60px 80px;
 }
 .osonnews__card .card__img {
@@ -925,7 +946,6 @@ footer .footer_massenger {
 
 .allnews {
   display: flex;
-  gap: 33px;
 }
 .allnews__card {
   width: 447px;
@@ -971,7 +991,6 @@ footer .footer_massenger {
 
 .allnewss {
   display: flex;
-  gap: 33px;
   margin-top: 66px;
   margin-bottom: 229px;
 }
@@ -981,12 +1000,18 @@ footer .footer_massenger {
   margin-bottom: 110px;
 }
 
+.homesingel a {
+  color: #0000b2;
+  font-family: Poppins;
+  font-size: 16px;
+}
+
 .mi {
   position: relative;
 }
 
 .vac {
-  color: #99D9FF;
+  color: #99d9ff;
   font-family: Poppins;
   font-size: 64px;
   font-style: normal;
@@ -994,8 +1019,7 @@ footer .footer_massenger {
   line-height: 125%;
   transform: rotate(20deg);
   position: absolute;
-  margin-top: -500px;
-  margin-left: -200px;
+  bottom: 250px;
 }
 
 .vacansiya__card {
@@ -1003,17 +1027,18 @@ footer .footer_massenger {
   margin-top: 157px;
   margin-bottom: 48px;
   border-radius: 10px;
-  border: 1px solid #F5F8F8;
+  border: 1px solid #f5f8f8;
   background: rgba(255, 255, 255, 0.34);
-  backdrop-filter: blur(153px);
+  -webkit-backdrop-filter: blur(153px);
+          backdrop-filter: blur(153px);
   padding: 40px;
-  margin-left: 324px;
+  margin-left: 204px;
 }
 .vacansiya__card--text {
   margin-right: 324px;
 }
 .vacansiya__card--text .de {
-  color: #00C;
+  color: #00c;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
@@ -1021,7 +1046,7 @@ footer .footer_massenger {
   line-height: 125%;
 }
 .vacansiya__card--text h1 {
-  color: #00001A;
+  color: #00001a;
   font-family: Poppins;
   font-size: 36px;
   font-style: normal;
@@ -1033,7 +1058,7 @@ footer .footer_massenger {
   gap: 60px;
 }
 .vacansiya__card--text ul .dm {
-  color: #73738C;
+  color: #73738c;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
@@ -1053,9 +1078,9 @@ footer .footer_massenger {
   padding: 12px 30px;
   align-items: flex-start;
   border-radius: 42px;
-  background: #00A0FF;
+  background: #00a0ff;
   border: none;
-  color: #FFF;
+  color: #fff;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
@@ -1066,7 +1091,7 @@ footer .footer_massenger {
 }
 .vacansiya__card--text .btu:hover {
   background-color: rgb(252, 245, 231);
-  color: #00A0FF;
+  color: #00a0ff;
 }
 .vacansiya__card--img {
   width: 338px;
@@ -1088,6 +1113,13 @@ footer .footer_massenger {
   margin-left: 60px;
   gap: 18px;
 }
+
+#sectionpage1 .homesingel a {
+  color: #0000b2;
+  font-family: Poppins;
+  font-size: 16px;
+}
+
 #sectionpage1 .homesingel li {
   color: #0000B2;
   font-size: 16px;

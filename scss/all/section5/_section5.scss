@@ -1,115 +1,112 @@
+.homesingel {
+  a {
+    color: #0000b2;
+    font-family: Poppins;
+    font-size: 16px;
+  }
+}
+
 .mi {
-    position: relative;
+  position: relative;
 }
 
 .vac {
-    color: #99D9FF;
-    font-family: Poppins;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 125%;
-    transform: rotate(20deg);
-    position: absolute;
-    margin-top: -500px;
-    margin-left: -200px;
+  color: #99d9ff;
+  font-family: Poppins;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+  transform: rotate(20deg);
+  position: absolute;
+  bottom: 250px;
 }
 
 .vacansiya__card {
-    display: flex;
-    margin-top: 157px;
-    margin-bottom: 48px;
-    border-radius: 10px;
-    border: 1px solid #F5F8F8;
-    background: rgba(255, 255, 255, 0.34);
-    backdrop-filter: blur(153px);
-    padding: 40px;
-    margin-left: 324px;
+  display: flex;
+  margin-top: 157px;
+  margin-bottom: 48px;
+  border-radius: 10px;
+  border: 1px solid #f5f8f8;
+  background: rgba(255, 255, 255, 0.34);
+  backdrop-filter: blur(153px);
+  padding: 40px;
+  margin-left: 204px;
 
+  &--text {
+    margin-right: 324px;
 
-    &--text {
-        margin-right: 324px;
-
-        .de {
-            color: #00C;
-            font-family: Poppins;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 125%;
-        }
-
-        h1 {
-            color: #00001A;
-            font-family: Poppins;
-            font-size: 36px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 125%;
-        }
-
-        ul {
-            display: flex;
-            gap: 60px;
-
-            .dm {
-                color: #73738C;
-                font-family: Poppins;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 500;
-                line-height: 125%;
-            }
-
-            .mi {
-                color: #006;
-                font-family: Poppins;
-                font-size: 20px;
-                font-style: normal;
-                font-weight: 600;
-                line-height: 125%;
-
-            }
-
-        }
-
-
-        .btu {
-            margin: 80px 10px 0px 0px;
-            padding: 12px 30px;
-            align-items: flex-start;
-            border-radius: 42px;
-            background: #00A0FF;
-            border: none;
-            color: #FFF;
-            font-family: Poppins;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 125%;
-            gap: 20px;
-            cursor: pointer;
-        
-
-            &:hover {
-                background-color: rgb(252, 245, 231);
-                color: #00A0FF;
-              
-              
-            }
-        }
+    .de {
+      color: #00c;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 125%;
     }
 
-
-    &--img {
-        width: 338px;
-        height: 351px;
-        flex-shrink: 0;
+    h1 {
+      color: #00001a;
+      font-family: Poppins;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 125%;
     }
 
+    ul {
+      display: flex;
+      gap: 60px;
 
+      .dm {
+        color: #73738c;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 125%;
+      }
+
+      .mi {
+        color: #006;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 125%;
+      }
+    }
+
+    .btu {
+      margin: 80px 10px 0px 0px;
+      padding: 12px 30px;
+      align-items: flex-start;
+      border-radius: 42px;
+      background: #00a0ff;
+      border: none;
+      color: #fff;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 125%;
+      gap: 20px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgb(252, 245, 231);
+        color: #00a0ff;
+      }
+    }
+  }
+
+  &--img {
+    width: 338px;
+    height: 351px;
+    flex-shrink: 0;
+  }
 }
 
 .PR {
-    margin-bottom: 285px;
+  margin-bottom: 285px;
 }
